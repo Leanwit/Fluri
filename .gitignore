@@ -42,3 +42,4 @@ obj
 */obj/*
 
 nuget.exe
+*.nupkg
