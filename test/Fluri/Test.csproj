@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\Fluri\Fluri.csproj" />
+      <ProjectReference Include="..\..\src\Fluri\Fluri.csproj" />
     </ItemGroup>
 
 </Project>
