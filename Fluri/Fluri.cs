@@ -18,6 +18,8 @@ namespace Fluri
         public Fluri(string url)
         {
             this._uriObject = new UriBuilder(url);
+            
+            //Prevent default port
             if (this._uriObject.Uri.IsDefaultPort)
             {
                 this._uriObject.Port = -1;
@@ -37,15 +39,11 @@ namespace Fluri
                 this._uriObject.Query = query;
                 return this;
             }
+            
             this._uriObject.Query = $"{this._uriObject.Query}&{query}";
             return this;
         }
-
-        private static string ReplaceSpaces(string value)
-        {
-            return value.Replace(" ", "+");
-        }
-
+        
         public Fluri Over(string query)
         {
             this._uriObject.Query = query;
@@ -55,7 +53,6 @@ namespace Fluri
         public Fluri Scheme(string value)
         {
             this._uriObject.Scheme = value;
-            
             return this;
         }
 
