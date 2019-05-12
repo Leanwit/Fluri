@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-
 namespace Test
 {
-    using Fluri;
     using Xunit;
+    using Fluri;
 
     public class TestFluri
     {

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>FluentUri</id>
+        <title>URI creator using Fluent</title>
+        <version>0.0.9</version>
+        <authors>leanwit</authors>
+        <owners>leanwit</owners>
+        <license type="file">LICENSE.txt</license>
+        <projectUrl>https://github.com/Leanwit/Fluri</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A different way to create Uri Objects using Fluent Builder approach.</description>
+        <releaseNotes/>
+        <copyright>Copyright 2019</copyright>
+        <tags>Uri UriBuilder Uris Url Fluent</tags>
+    </metadata>
+    <files>
+        <file src="../LICENSE.txt" target=""/>
+    </files>
+</package>
