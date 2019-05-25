@@ -56,7 +56,7 @@
             this._uriObject.Host = host;
             return this;
         }
-        
+
         public Fluri Port(int port)
         {
             this._uriObject.Port = port;
@@ -94,7 +94,7 @@
             this._uriObject.Query = String.Join("&", this.ToQueryString(this._queryParameters));
             return this._uriObject.ToString();
         }
-        
+
         public Uri GetUri()
         {
             this._uriObject.Query = String.Join("&", this.ToQueryString(this._queryParameters));
@@ -105,12 +105,12 @@
         {
             foreach (var keyValuePair in query)
             {
-                this._queryParameters.Add(keyValuePair.Key,keyValuePair.Value.ToString());   
+                this._queryParameters.Add(keyValuePair.Key, keyValuePair.Value.ToString());
             }
 
             return this;
         }
-        
+
         public Fluri RemoveQuery(string key)
         {
             this._queryParameters.Remove(key);
