@@ -8,6 +8,7 @@
         <owners>leanwit</owners>
         <license type="file">LICENSE.txt</license>
         <projectUrl>https://github.com/Leanwit/Fluri</projectUrl>
+        <repository url="https://github.com/Leanwit/Fluri"/>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A different way to create Uri Objects using Fluent Builder approach.</description>
         <releaseNotes/>
