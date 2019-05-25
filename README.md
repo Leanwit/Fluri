@@ -30,6 +30,18 @@ Available methods:
 .Fragment(42) or Fragment("test me")
 .Path("/hey/you")
 .Query("t=1")
+.Remove("q")
+.AddQuery(expandoObject)
+```
+
+Using Expando objects: Result -> http://google/?q=search&text=house&id=356
+```
+dynamic query = new ExpandoObject();
+query.q = "search";
+query.text = "house";
+query.id = 356;
+
+new Fluri("http://google/").AddQuery(query).GetUrl());
 ```
 
 You can see all uses in https://github.com/Leanwit/Fluri/blob/master/test/Fluri/TestFluri.cs
