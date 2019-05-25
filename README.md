@@ -1,7 +1,7 @@
 # Fluri
 A different way to create Uri Objects using Fluent Builder approach.
 
-[![CircleCI](https://circleci.com/gh/Leanwit/Fluri/tree/master.svg?style=svg)](https://circleci.com/gh/Leanwit/Fluri/tree/master)
+[![Build Status](https://travis-ci.org/Leanwit/Fluri.svg?branch=master)](https://travis-ci.org/Leanwit/Fluri)
 
 ## How to install
 dotnet add package FluentUri<br>
