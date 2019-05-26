@@ -45,7 +45,3 @@ new Fluri("http://google/").AddQuery(query).GetUrl());
 ```
 
 You can see all uses in https://github.com/Leanwit/Fluri/blob/master/test/Fluri/TestFluri.cs
-
-## Next steps
-Requirements to v1.0.0
-https://github.com/Leanwit/Fluri/milestone/1
